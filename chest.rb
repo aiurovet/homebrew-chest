@@ -27,12 +27,12 @@ class Chest < Formula
     "os_name" => "Linux",
     "tar_name" => "#{$name}-#{version}-linux-amd64.tar.gz",
     "base_url" => "https://github.com/aiurovet/#{$name}/raw/#{version}/app/Linux/",
-    "sha_256" => "485cc4c650a377ebd1a74c5131046db5ab33baeaa95f7a9cd2c2cd4238ba23ac",
+    "sha_256" => "1c9b13fab74ce5ce8a42f709791a35b91b00d9a921f0f1c6ecdd2a911aed49ba",
   }, {
     "os_name" => "macOS",
     "tar_name" => "#{$name}-#{version}-macos.tar.gz",
     "base_url" => "https://github.com/aiurovet/#{$name}/raw/#{version}/app/macOS/",
-    "sha_256" => "8f25a7bdaca614865a7b59b1c84d653f6a4c65bed6358ec409af83fd4b4313b3",
+    "sha_256" => "b72afc50fd2391c309483395ad8ec7eb381cdeac0e8e50b1395a7092d05e82d8",
   },];
 
   # Getting this setup and full URL based on the current OS
